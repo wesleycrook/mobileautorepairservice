@@ -75,28 +75,28 @@ h2 {
   width: 88px;
   background-position: 0 0px; }
 
-#navigation ul li a#home:hover, #navigation ul li#current a#home {
+body.home #navigation ul li a#home, #navigation ul li a#home:hover {
   background-position: 0px -43px; }
 
 #navigation ul li a#about {
   width: 89px;
   background-position: -88px 0px; }
 
-#navigation ul li a#about:hover, #navigation ul li#current a#about {
+body.about #navigation ul li a#about, #navigation ul li a#about:hover {
   background-position: -88px -43px; }
 
 #navigation ul li a#services {
   width: 105px;
   background-position: -177px 0; }
 
-#navigation ul li a#services:hover, #navigation ul li#current a#services {
+body.services #navigation ul li a#services, #navigation ul li a#services:hover {
   background-position: -177px -43px; }
 
 #navigation ul li a#contact {
   width: 104px;
   background-position: -282px 0; }
 
-#navigation ul li a#contact:hover, #navigation ul li#current a#contact {
+body.contact #navigation ul li a#contact, #navigation ul li a#contact:hover {
   background-position: -282px -43px; }
 
 /* -------------------------------------------------- 
