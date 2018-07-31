@@ -1,0 +1,312 @@
+---
+---
+@charset "UTF-8";
+
+/* -------------------------------------------------- 
+   styles.css -- Table of Contents
+-----------------------------------------------------
+:: 1 - HTML
+:: 2 - Header
+:: 3 - Navigation
+:: 4 - Content
+:: 5 - Home Page
+:: 6 - Services Page
+:: 7 - Interior Layout
+:: 8 - Footer
+
+*/
+
+
+/* -------------------------------------------------- 
+   1 - HTML
+---------------------------------------------------*/
+
+html{
+	font-family: Myriad Pro, Helvetica, Arial, Sans-Serif;
+	background-color:#636363;
+	letter-spacing:.25px;
+}
+
+h1{
+	color:#f29240;
+	font-size:35px;
+	font-style:italic;
+	font-weight:normal;
+	margin-bottom:18px;
+}
+
+h2{
+	color:#59b1fc;
+	font-size:25px;
+	font-style:italic;
+	font-weight:normal;
+	margin-bottom:18px;
+}
+
+
+/* -------------------------------------------------- 
+   2 - Header
+---------------------------------------------------*/
+
+#header-container{
+	background-image:url('../images/header-blue-fade.jpg');
+	background-repeat:repeat-x;
+}
+
+
+#header{
+	width:1050px;
+	margin:0px auto;
+	background-image:url('../images/header-clouds.png');
+	background-repeat:no-repeat;
+	background-position:-6px 0px;
+}
+
+#logo{
+	float:left;
+	margin:31px 0px 0px 11px;
+	position:absolute;
+}
+
+
+/* -------------------------------------------------- 
+   3 - Navigation
+---------------------------------------------------*/
+
+#navigation{
+	float:right;
+	width:386px;
+	height:43px;
+	margin:111px 144px 0px;
+}
+
+#navigation ul li{
+	float:left;
+}
+
+#navigation ul li a{
+	text-indent:-9999px;
+	font-size:1%;
+	height:43px;
+	display:block;
+	background-image:url('../images/navigation.png');
+}
+
+#navigation ul li a#home{
+	width:88px;
+	background-position:0 0px;
+}
+
+#navigation ul li a#home:hover, #navigation ul li#current a#home{
+	background-position:0px -43px;
+}
+
+#navigation ul li a#about{
+	width:89px;
+	background-position:-88px 0px;
+}
+
+#navigation ul li a#about:hover, #navigation ul li#current a#about{
+	background-position:-88px -43px;
+}
+
+#navigation ul li a#services{
+	width:105px;
+	background-position:-177px 0;
+}
+
+#navigation ul li a#services:hover, #navigation ul li#current a#services{
+	background-position:-177px -43px;
+}
+
+#navigation ul li a#contact{
+	width:104px;
+	background-position:-282px 0;
+}
+
+#navigation ul li a#contact:hover, #navigation ul li#current a#contact{
+	background-position:-282px -43px;
+}
+
+
+/* -------------------------------------------------- 
+   4 - Content
+---------------------------------------------------*/
+
+#content p{
+	font-size:16px;
+	line-height:22px;
+	color:#6a6a6a;
+	margin-bottom:15px;
+	font-weight:lighter;
+}
+
+#content p b{
+	font-weight:bold;
+	font-style:italic;
+}
+
+#content p.orange{
+	color:#f29240;
+	font-weight:normal;
+	font-style:italic;
+}
+
+#content p a{
+	color:#f29240;
+}
+
+#content p a:hover{
+	color:#59b1fc;
+}
+
+#content ul{
+	font-size:15px;
+	line-height:20px;
+	color:#6a6a6a;
+	margin:0 0 15px 25px;
+	font-weight:normal;
+	list-style:disc outside;
+	color:#F29240;
+}
+
+#content ul li{
+	margin-bottom:2px;
+}
+
+
+/* -------------------------------------------------- 
+   5 - Home Page
+---------------------------------------------------*/
+
+#content-container{
+	background-color:#fff;
+	padding:30px 0 25px 0;
+}
+
+#content{
+	width:1050px;
+	margin:0px auto;
+}
+
+#col-home-left{
+	padding:30px;
+	width:315px;
+	float:left;
+}
+
+img#featured{
+	border:5px solid #a3a3a3;
+}
+
+img#featured-last{
+	border:none;
+}
+
+#col-home-middle{
+	width:125px;
+	height:351px;
+	background-image:url('../images/divider-wrench.jpg');
+	float:left;
+	margin-left:18px;
+}
+
+#col-home-right{
+	float:left;
+	width:480px;
+	padding:22px 0px 0 0px;
+}
+
+
+/* -------------------------------------------------- 
+   6 - Services Page
+---------------------------------------------------*/
+
+#content ul.services{
+	float: left;
+	width: 40%;
+	padding: 0px 25px 0 0;
+	line-height: 15px;
+}
+
+#content ul.services li{
+	margin-bottom: 8px;
+}
+
+/* -------------------------------------------------- 
+   7 - Interior Layout
+---------------------------------------------------*/
+
+#col-left{
+	padding:30px;
+	width:315px;
+	float:left;
+}
+
+img#featured{
+	border:5px solid #a3a3a3;
+}
+
+#col-right{
+	float:left;
+	width:540px;
+	padding:22px 0px 25px 40px;
+}
+
+iframe{
+	border:5px solid #a3a3a3;
+	margin-top:10px;
+}
+
+
+/* -------------------------------------------------- 
+   8 - Footer
+---------------------------------------------------*/
+
+#footer-container{
+	background-color:#636363;
+	border-top:5px solid #979797;
+	padding:20px 0;
+}
+
+#footer h4{
+	font-size:22px;
+	font-style:italic;
+	color:#59b1fc;
+	font-weight:normal;
+	margin-bottom:5px;
+}
+
+#footer p{
+	color:#fff;
+	font-weight:lighter;
+	line-height:24px;
+	font-size:15px;
+}
+
+#footer p span{
+	color:#59b1fc;
+	font-weight:normal;
+	font-style:italic;
+}
+
+#footer{
+	padding:16px 0px;
+	width:1000px;
+	margin:0px auto;
+	height:125px;
+}
+
+#footer-left{
+	width:375px;
+	float:left;
+}
+
+#footer-right{
+	float:right;
+	background-image:url('../images/footer-credit-cards.png');
+	width:464px;
+	height:454px;
+	position:relative;
+	top:-90px;
+}
